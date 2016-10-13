@@ -1,5 +1,5 @@
 {
-  "name": "f-perload",
+  "name": "f-preload",
   "version": "0.0.1",
   "description": "preloading img",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifir/f-perload.git"
+    "url": "git+https://github.com/ifir/f-preload.git"
   },
   "keywords": [
     "preload",
@@ -21,9 +21,9 @@
   "author": "ifir",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ifir/f-perload/issues"
+    "url": "https://github.com/ifir/f-preload/issues"
   },
-  "homepage": "https://github.com/ifir/f-perload#readme",
+  "homepage": "https://github.com/ifir/f-preload#readme",
   "devDependencies": {
     "browser-sync": "^2.17.3",
     "gulp": "^3.9.1",
