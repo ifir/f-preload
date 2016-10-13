@@ -40,7 +40,7 @@ var Fpreload = new Fpreload({
 > npm install --save f-preload
 
 ```
-var Flazyload = require('f-preload');
+var Fpreload = require('f-preload');
 var preload = new Fpreload({
 	soucre: Array,  //图片src数组(required)
 	debug : Boolean,  //默认false
