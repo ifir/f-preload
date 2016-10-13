@@ -55,23 +55,23 @@
 					_this.sucNum++;
 					_this.asyncNum++;
 					if(_this.sucNum == _this.length){
-	                    if(typeof _this.callback === 'function'){
-	                    	_this.callback();
-	                    }else{
-	                    	console.log('Preloader Complete');
-	                    }
+						if(typeof _this.callback === 'function'){
+							_this.callback();
+						}else{
+							console.log('Preloader Complete');
+						}
 					}
 					//log打印
-					if(_this.debug) _this.msglog();
-	            };
-	            //加载失败
-	            img[i].onerror = function(){
-	            	_this.errNum++;
-	            	_this.asyncNum++;
-	                _this.errArr.push(this.src);
-	                //log打印
-					if(_this.debug) _this.msglog();
-	            }
+					_this.debug && _this.msglog();
+				};
+				//加载失败
+				img[i].onerror = function(){
+					_this.errNum++;
+					_this.asyncNum++;
+					_this.errArr.push(this.src);
+					//log打印
+					_this.debug && _this.msglog();
+				}
 			}
 		},
 		//debug打印信息
