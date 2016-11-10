@@ -28,7 +28,7 @@
 <script src="youpath/f-preload.js"></script>
 
 var Fpreload = new Fpreload({
-	soucre: Array,  //图片src数组(required)
+	source: Array,  //图片src数组(required)
 	debug : Boolean,  //默认false
 	callback : Function //默认null
 });
@@ -42,7 +42,7 @@ var Fpreload = new Fpreload({
 ```
 var Fpreload = require('f-preload');
 var preload = new Fpreload({
-	soucre: Array,  //图片src数组(required)
+	source: Array,  //图片src数组(required)
 	debug : Boolean,  //默认false
 	callback : Function //默认null
 });

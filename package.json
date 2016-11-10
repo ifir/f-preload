@@ -1,6 +1,6 @@
 {
   "name": "f-preload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "preloading img",
   "main": "index.js",
   "scripts": {
